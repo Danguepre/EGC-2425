@@ -23,7 +23,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     
-    - name: outdated dependencies
+    - name: Outdated dependencies
         run: |
           pip list --outdated
 
