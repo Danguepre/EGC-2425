@@ -24,7 +24,7 @@ jobs:
     - uses: actions/checkout@v4
     
     - name: Outdated dependencies
-        run: |
+      run: |
           pip list --outdated
 
     - uses: actions/setup-python@v5
